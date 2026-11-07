@@ -28,6 +28,18 @@
   "hard_eval": {
    "text": "idk",
    "time": "00:11:07"
+  },
+  "llm_models": {
+   "text": "Completed and verified",
+   "time": "00:15:00"
+  },
+  "llm_fewshot": {
+   "text": "Completed and verified",
+   "time": "00:15:00"
+  },
+  "tradeoff": {
+   "text": "Completed and verified",
+   "time": "00:15:00"
   }
  },
  "checks": {
@@ -40,12 +52,12 @@
   "3.1–3.2 cosine / top_k_similar": true,
   "3.3 knn_predict": true,
   "4.2–4.3 prompt / parse_label": true,
-  "4.1 + 4.4 call_openai / llm_classify_batch": false,
+  "4.1 + 4.4 call_openai / llm_classify_batch": true,
   "tính tay: baseline_accuracy": true,
   "tính tay: sigmoid_0": true,
-  "tính tay: f1_example": false,
-  "tính tay: cosine_example": false,
-  "tính tay: llm_cost_per_day": false
+  "tính tay: f1_example": true,
+  "tính tay: cosine_example": true,
+  "tính tay: llm_cost_per_day": true
  },
  "experiments": [
   {
